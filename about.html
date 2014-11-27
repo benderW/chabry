@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
 
-    <title>Volba pro Chabry</title>
+  <title>Volba pro Chabry</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 
-  </head>
+</head>
 <!-- NAVBAR
-================================================== -->
+  ================================================== -->
   <body>
     <div class="navbar-wrapper">
       <div class="container">
@@ -42,35 +42,102 @@
                 <li class="active"><a href="about.html">O nás</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
-                
+
               </ul>
             </div>
           </div>
         </nav>
-
       </div>
     </div>
 
-
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
     <div class="container ">
-      <h1>O nás</h1><br/>
-      
+      <div class="row">
+        <div class="col-md-12 col-lg-offset-1">
+          <h1>Kontakt</h1><br/>
+        </div>
+        <div class="col-md-4 col-lg-offset-1">
+          <div class="well">
+            <legend><span class="glyphicon glyphicon-globe"></span> Adresa</legend>
+            <address>
+              <strong>Twitter, Inc.</strong><br>
+              795 Folsom Ave, Suite 600<br>
+              San Francisco, CA 94107<br>
+              <abbr title="Phone">P:</abbr> (123) 456-7890
+            </address>
+
+            <address>
+              <strong>Full Name</strong><br>
+              <a href="mailto:#">first.last@example.com</a>
+            </address>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20453.948410751145!2d14.443934000000002!3d50.14722914999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470beaf9118253dd%3A0x4a97eff55c392ccb!2sPraha-Doln%C3%AD+Chabry!5e0!3m2!1scs!2scz!4v1417121702953" width="600" height="450" frameborder="0" style="border:0"></iframe>
+          </div>
+        </div>
+      </div>
+      <br/><hr/>
+      <div class="row">
+        <div class="col-md-12 col-lg-offset-1">
+          <h1>Napiště nám</h1><br/>
+        </div>
       </div>
 
-    </div><!-- /.container -->
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <div class="well well-sm">
+            <form>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">
+                      Jméno</label>
+                      <input type="text" class="form-control" id="name" placeholder="Vaše jméno" required="required" />
+                    </div>
+                    <div class="form-group">
+                      <label for="email">
+                        Email</label>
+                        <div class="input-group">
+                          <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                        </span>
+                        <input type="email" class="form-control" id="email" placeholder="Váš email" required="required" /></div>
+                      </div>
+                      <div class="form-group">
+                        <label for="subject">
+                          Předmět</label>
+                          <select id="subject" name="subject" class="form-control" required="required">
+                            <option value="na" selected="">Vyberte</option>
+                            <option value="program">Volební program</option>
+                            <option value="people">Kandiáti</option>
+                            <option value="opportunities">Příležitosti</option>
+                            <option value="others">Jiné</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="message">
+                            Zpráva</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                            placeholder="Vaše zpráva"></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Odeslat zprávu</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div><!-- /.container -->
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
 
   </body>
-</html>
+  </html>
