@@ -20,6 +20,10 @@ img.pad-around {
 	padding: 50px
 }
 
+iframe {
+	border: 0;
+}
+
 @media only screen and (min-width: 500px) {
 .bg {
   background: url('../imgs/bg.jpg') no-repeat center center;
