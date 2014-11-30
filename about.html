@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="../../favicon.ico">
-
+<link rel="profile" href="http://microformats.org/profile/hcard">
   <title>Volba pro Chabry</title>
 
   <!-- Bootstrap core CSS -->
@@ -58,24 +58,23 @@
         <div class="col-md-4 col-lg-offset-1">
           <div class="well">
             <legend><span class="glyphicon glyphicon-globe"></span> Adresa</legend>
-            <address>
-              <strong>Úřad Městské části</strong><br>
-              Hrušovanské nám. 253/5<br>
-              Dolní Chabry<br>
-              184 00,  Praha 8<br>
-              IČO: 00231274<br>
-              DIČ: CZ00231274<br>
-            </address>
-            
-            <address>
-              <strong>Telefonní spojení</strong><br>
-              <abbr title="Telefon">tel:</abbr> +420 283 841 277<br>
-              <abbr title="Telefon">tel:</abbr> +420 283 851 272
-            </address>
 
-            <address>
-              <strong>E-mailové spojení</strong><br>
-              <a href="mailto:#">volbaprochabry@chabry.com</a>
+            <address class="vcard">
+              <strong class="fn org">Úřad Městské části</strong>
+              <div class="adr">
+                <div class="street-address">Hrušovanské nám. 253/5</div>
+                <div class="locality">Dolní Chabry</div>
+                <span class="postal-code">184 00</span>, <span>Praha 8</span><br/>
+              </div>
+              IČO: 00231274<br/>
+              DIČ: CZ00231274<br/>
+              <br/>
+              <strong>Telefonní spojení</strong><br/>
+              <abbr title="Telefon">tel:</abbr> <span class="tel">+420 283 841 277</span><br/>
+              <abbr title="Telefon">tel:</abbr> <span class="tel">+420 283 851 272</span><br/>
+            <br/>
+              <strong>E-mailové spojení</strong><br/>
+              <a href="mailto:volbaprochabry@chabry.com" class="email">volbaprochabry@chabry.com</a>
             </address>
             
             <address>
